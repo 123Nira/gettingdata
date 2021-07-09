@@ -14,23 +14,24 @@ const data = [
 // 3. get drug by in_stock flag
 // 4. delete drug by drugId
 
-// data.map((item,index)=>{
-//     console.log(item.drugName+ " "+ index)
-//     for(let i=0;i<item.length;i++){
+ data.map((item)=>{
+    console.log(item)
+    )}
+          
         
-//     }
+ 
 
-//  // 2. get drug detail by drugId 
+  // 2. get drug detail by drugId 
 
  var filtered = data.filter(a => console.log(a.drugName+" " +  a.drugId ) )
 
 
-// // 4. delete drug by drugId
+ // 4. delete drug by drugId
 
-// var newList = [];
-// for (var i = 0; i < data.length; i++) {
-//     if (data[i].in_stock === true) {
-//         newList.push(data[i]);
-//     }
-// }
+ var newList = [];
+for (var i = 0; i < data.length; i++) {
+     if (data[i].in_stock === true) {
+         newList.push(data[i]);
+   }
+}
 // console.log(newList);
